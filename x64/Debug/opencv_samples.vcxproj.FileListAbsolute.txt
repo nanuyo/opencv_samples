@@ -1,0 +1,2 @@
+D:\Myprojects\opencv_samples\x64\Debug\opencv_samples.exe
+D:\Myprojects\opencv_samples\x64\Debug\opencv_samples.pdb
