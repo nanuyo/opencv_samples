@@ -14,7 +14,7 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
 string cascadeName;
 string nestedCascadeName;
 
-int main( int argc, const char** argv )
+int facedetect_image( void )
 {
     VideoCapture capture;
     Mat frame, image;

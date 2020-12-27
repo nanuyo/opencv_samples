@@ -51,17 +51,17 @@ const char* keys =
     "{help h||}{@image |fruits.jpg|input image name}"
 };
 
-int main( int argc, const char** argv )
+int edge(void )
 {
-    help(argv);
+   /* help(argv);
     CommandLineParser parser(argc, argv, keys);
-    string filename = parser.get<string>(0);
+   */
+    string filename = "lena.jpg";
 
-    image = imread(samples::findFile(filename), IMREAD_COLOR);
+    image = imread(filename, IMREAD_COLOR);
     if(image.empty())
     {
         printf("Cannot read image file: %s\n", filename.c_str());
-        help(argv);
         return -1;
     }
     cedge.create(image.size(), image.type());

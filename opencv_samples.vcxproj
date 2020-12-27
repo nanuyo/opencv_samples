@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cpp\edge.cpp" />
     <ClCompile Include="cpp\facedetect._image.cpp" />
     <ClCompile Include="opencv_samples.cpp" />
   </ItemGroup>

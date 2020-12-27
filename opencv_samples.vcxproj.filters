@@ -21,5 +21,8 @@
     <ClCompile Include="cpp\facedetect._image.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cpp\edge.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
