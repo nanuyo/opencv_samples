@@ -5,11 +5,13 @@
 
 int facedetect_image(void);
 int edge(void);
+int qrcode(void);
 
 int main()
 {
     //facedetect_image();
-    edge();
+//    edge();
+    qrcode();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

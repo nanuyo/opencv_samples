@@ -30,8 +30,9 @@ static string getQRModeString()
     return out.str();
 }
 
-int main(int argc, char *argv[])
+int qrcode(void)
 {
+#if 0
     const string keys =
         "{h help ? |        | print help messages }"
         "{i in     |        | input image path (also switches to image detection mode) }"
@@ -78,7 +79,13 @@ int main(int argc, char *argv[])
 
     g_saveDetections = cmd_parser.has("save_detections") && cmd_parser.get<bool>("save_detections");
     g_saveAll = cmd_parser.has("save_all") && cmd_parser.get<bool>("save_all");
+#else
 
+    string in_file_name = "qrcode.png";
+    g_out_file_name = "qrcode_out";
+    g_out_file_ext = ".png";
+    
+#endif
     int return_code = 0;
     if (in_file_name.empty())
     {

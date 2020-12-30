@@ -56,7 +56,7 @@ int edge(void )
    /* help(argv);
     CommandLineParser parser(argc, argv, keys);
    */
-    string filename = "lena.jpg";
+    string filename = "D:/Myprojects/opencv-4.5.1/sources/samples/data/fruits.jpg";
 
     image = imread(filename, IMREAD_COLOR);
     if(image.empty())

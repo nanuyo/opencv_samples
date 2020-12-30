@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="cpp\edge.cpp" />
     <ClCompile Include="cpp\facedetect._image.cpp" />
+    <ClCompile Include="cpp\qrcode.cpp" />
     <ClCompile Include="opencv_samples.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
